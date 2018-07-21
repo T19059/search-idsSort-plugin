@@ -75,7 +75,7 @@ public class IdsSortPluginHandle  implements ScriptEngineService {
 							logger.info("查询到集合中元素 {},索引 {}", goods_id, ids.indexOf(goods_id));
 							return ids.indexOf(goods_id);
 						} else {
-							return Double.MAX_VALUE;
+							return ids.size();
 						}
                     }
                 };
